@@ -23,3 +23,4 @@ curl -H "X-ArchivesSpace-Session:$ASPACE_SESSION" "$ASPACE_BACKEND_URL/repositor
 ```
 
 5. Inspect the backend's request to Solr in the mitmproxy console:
+<img width="1118" alt="image" src="https://user-images.githubusercontent.com/1626547/160658178-4af80697-abd5-4d73-98fc-b483cee821e1.png">
