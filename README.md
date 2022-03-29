@@ -1,5 +1,6 @@
 # aspace_mitm_proxy
-    Use a tool like [mitmproxy](https://mitmproxy.org) to observe ArchivesSpace HTTP traffic
+
+Use a tool like [mitmproxy](https://mitmproxy.org) to observe ArchivesSpace HTTP traffic
 
 1. Download, install, and run mitmproxy - typically on port 8088.
 
