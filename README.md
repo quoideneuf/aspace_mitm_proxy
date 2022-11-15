@@ -2,7 +2,7 @@
 
 Use a tool like [mitmproxy](https://mitmproxy.org) to observe ArchivesSpace HTTP traffic
 
-1. Download, install, and run mitmproxy - typically on port 8088.
+1. Download, install, and run mitmproxy - typically on port 8080.
 
 2. Add this plugin to ArchivesSpace:
 
@@ -13,7 +13,7 @@ AppConfig[:plugins] = ['aspace_mitm_proxy']
 3. Run the backend, frontend, and / or public devservers with a special environment variable:
 
 ``` shell
-ASPACE_PROXY_PORT=8088 ./build/run backend:devserver
+ASPACE_PROXY_PORT=8080 ./build/run backend:devserver
 ```
 
 4. Make a curl request to a search endpoint:
